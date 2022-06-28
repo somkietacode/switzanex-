@@ -44,7 +44,7 @@ python3 switzanex-.py
 
 ### Database sample
 
-``
+```
 Numero,Fonction,Nom,Add1,Add2
 
 +41766089031,Inconu,Vintage Nassa    ,Via Nassa 66,6900 Lugano
@@ -57,7 +57,7 @@ Numero,Fonction,Nom,Add1,Add2
 
 076 342 21 25,Inconu,"PBA Conseil - Sécurité, alarme, vidéo, télésurveillance    ",Boulevard Georges-Favon 19,1204 Genève
 
-``
+```
 
 ### 📝 License
 
