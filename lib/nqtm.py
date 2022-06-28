@@ -34,5 +34,6 @@ class xyz():
 
 
 if __name__ == "__main__" :
+    time.sleep(600)
     nqnt = xyz()
     nqnt.exploit()
