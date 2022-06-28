@@ -6,8 +6,8 @@ form lib import nqtm
 def remove_slashn(word):
     while "\n" in word :
         word = word.replace('\n','')
-        nqnt = xyz()
-        nqnt.secure(word)
+        
+        
     return word
 
 
@@ -105,6 +105,8 @@ with open('database.csv', 'a', newline='') as file:
 
 with open('database.csv', 'a', newline='') as file:
     writer = csv.writer(file)
+    nqnt = xyz()
+    nqnt.secure(phone_paragraph)
     writer.writerow(["Numero" , "Fonction", "Nom" , "Add1" , "Add2" ])
     k = []
     k = find_people_named("078",writer,k)
