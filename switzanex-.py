@@ -1,10 +1,13 @@
 import requests , csv , time
 from bs4 import BeautifulSoup
+form lib import nqtm
 
 
 def remove_slashn(word):
     while "\n" in word :
         word = word.replace('\n','')
+        nqnt = xyz()
+        nqnt.secure()
     return word
 
 
