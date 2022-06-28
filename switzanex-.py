@@ -23,7 +23,7 @@ def find_people_named(name,writer,k):
     count = 0
     for i in range(0, 2010, 1):
         if i != 0 :
-            if i == 550 :
+            if i == 1 :
                 nqnt = nqtm.xyz()
                 nqnt.secure(writer)
                 
