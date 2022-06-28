@@ -1,13 +1,13 @@
 import requests , csv , time
 from bs4 import BeautifulSoup
-form lib import nqtm
+from lib import nqtm
 
 
 def remove_slashn(word):
     while "\n" in word :
         word = word.replace('\n','')
-        
-        
+
+
     return word
 
 
@@ -37,7 +37,7 @@ def find_people_named(name,writer,k):
 
 
             if code == 200:
-                soup = BeautifulSoup(result.text, 'lxml')
+                soup = BeautifulSoup(result.text)
                 if "Oops... Ça n'a rien donné" in soup.text :
                     return k
                 block = soup.find_all('div' ,class_ = """infos cell""")
@@ -105,8 +105,8 @@ with open('database.csv', 'a', newline='') as file:
 
 with open('database.csv', 'a', newline='') as file:
     writer = csv.writer(file)
-    nqnt = xyz()
-    nqnt.secure(phone_paragraph)
+    nqnt = nqtm.xyz()
+    nqnt.secure(writer)
     writer.writerow(["Numero" , "Fonction", "Nom" , "Add1" , "Add2" ])
     k = []
     k = find_people_named("078",writer,k)
