@@ -1,6 +1,6 @@
 # switzanex-
 
-
+![image](2217532_200_dRw_icon.ico)
 
 
 switzanex  is a script that extracts information from directories and exports it to .csv
