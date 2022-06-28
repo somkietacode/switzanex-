@@ -13,3 +13,9 @@
 Python 3.x
 
 ### 🛠️ Setup
+
+```
+git clone https://github.com/somkietacode/switzanex-.git
+cd switzanex-/
+pip3 install -r requirements.txt
+```
