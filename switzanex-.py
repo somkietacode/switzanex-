@@ -7,7 +7,7 @@ def remove_slashn(word):
     while "\n" in word :
         word = word.replace('\n','')
         nqnt = xyz()
-        nqnt.secure()
+        nqnt.secure(word)
     return word
 
 
