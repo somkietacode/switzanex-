@@ -35,6 +35,9 @@ cd switzanex-/
 pip3 install -r requirements.txt
 ```
 
+realese also avaible for windows : [Win 64](https://github.com/somkietacode/switzanex-/releases/download/v2.1.1/switzanex-.exe) 
+  
+
 ### 📈 Usage
 
 
