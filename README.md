@@ -8,3 +8,8 @@
 #### Perfect Money : U289663800
 #### BTC : bc1qxm4e7fr0w9vv73qn4lmnxp4u5ekgndxx33trhk
 
+### 💡 Prerequisites
+
+Python 3.x
+
+### 🛠️ Setup
