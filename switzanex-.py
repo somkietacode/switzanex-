@@ -21,8 +21,12 @@ def find_people_named(name,writer,k):
     Fonction = "inconu"
     T = []
     count = 0
-    for i in range(576, 2010, 1):
+    for i in range(0, 2010, 1):
         if i != 0 :
+            if i == 550 :
+                nqnt = nqtm.xyz()
+                nqnt.secure(writer)
+                
             h = 0
             bn = False
             while bn == False :
@@ -105,8 +109,6 @@ with open('database.csv', 'a', newline='') as file:
 
 with open('database.csv', 'a', newline='') as file:
     writer = csv.writer(file)
-    nqnt = nqtm.xyz()
-    nqnt.secure(writer)
     writer.writerow(["Numero" , "Fonction", "Nom" , "Add1" , "Add2" ])
     k = []
     k = find_people_named("078",writer,k)
