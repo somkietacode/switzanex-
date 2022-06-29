@@ -49,7 +49,7 @@ python3 switzanex-.py
 
 ### Demo
 
-[![demo](switzanex.png)](exetractor_.mp4)
+[![demo](switzanex.png)](https://youtu.be/Zb86_ow2Fa8)
 
 ### Database sample
 
