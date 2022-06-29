@@ -46,6 +46,11 @@ realese also avaible for windows : [Win 64](https://github.com/somkietacode/swit
 python3 switzanex-.py
 ```
 
+
+### Demo
+
+[![demo](switzanex.png)(exetractor_.mp4)]
+
 ### Database sample
 
 ```
@@ -64,6 +69,8 @@ Numero,Fonction,Nom,Add1,Add2
 ```
 
 Good luck
+
+
 
 ## Buy Me A Coffe
 * __Perfect Money__ : U289663800 
