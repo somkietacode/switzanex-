@@ -1,6 +1,6 @@
 # switzanex-
 ![Description](switzanex.png)
-![logo](switzanex_logo.png)
+
 
 
 switzanex  is a script that extracts information from directories and exports it to .csv
@@ -78,4 +78,6 @@ __Contact info__ :
 ### 📝 License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+![logo](switzanex_logo.png)
 
